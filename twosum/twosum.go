@@ -4,7 +4,7 @@ package twosum
 func TSBrute(nums []int, target int) []int {
 	for i := 0; i < len(nums); i++ {
 		for num := 0; num < len(nums); num++ {
-			if nums[num]+nums[i] == target {
+			if nums[num]+nums[i] == target && (num != i) {
 				return []int{num, i}
 			}
 		}
