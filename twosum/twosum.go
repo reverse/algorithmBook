@@ -1,10 +1,10 @@
 package twosum
 
 // TSBrute is the brute force solution to the Two Sum Algorithm
-func TSBrute(input []int, target int) []int {
-	for i := 0; i < len(input); i++ {
-		for num := 0; num < len(input); num++ {
-			if input[num]+input[i] == target {
+func TSBrute(nums []int, target int) []int {
+	for i := 0; i < len(nums); i++ {
+		for num := 0; num < len(nums); num++ {
+			if nums[num]+nums[i] == target {
 				return []int{num, i}
 			}
 		}
@@ -13,27 +13,27 @@ func TSBrute(input []int, target int) []int {
 }
 
 // TSHashMap utilizes a hashmap in a onceover to solve the Two Sum Algorithm
-func TSHashMap(input []int, target int) []int {
+func TSHashMap(nums []int, target int) []int {
 	hashMap := make(map[int]int)
-	for i := 0; i < len(input); i++ {
-		complement := target - input[i]
+	for i := 0; i < len(nums); i++ {
+		complement := target - nums[i]
 		if val, ok := hashMap[complement]; ok && (val != i) {
 			return []int{val, i}
 		}
-		hashMap[input[i]] = i
+		hashMap[nums[i]] = i
 	}
 	return []int{}
 }
 
 // TSHashMapLong utilizes a hash map but it iterates over the data twice to solve the Two Sum Algorithm
-func TSHashMapLong(input []int, target int) []int {
+func TSHashMapLong(nums []int, target int) []int {
 	hashMap := make(map[int]int)
-	for i := 0; i < len(input); i++ {
-		hashMap[input[i]] = i
+	for i := 0; i < len(nums); i++ {
+		hashMap[nums[i]] = i
 	}
 
-	for i := 0; i < len(input); i++ {
-		if val, ok := hashMap[input[i]]; ok && (val != i) {
+	for i := 0; i < len(nums); i++ {
+		if val, ok := hashMap[nums[i]]; ok && (val != i) {
 			return []int{val, i}
 		}
 	}
