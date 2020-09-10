@@ -33,7 +33,8 @@ func TSHashMapLong(nums []int, target int) []int {
 	}
 
 	for i := 0; i < len(nums); i++ {
-		if val, ok := hashMap[nums[i]]; ok && (val != i) {
+		complement := target - nums[i]
+		if val, ok := hashMap[complement]; ok && (val != i) {
 			return []int{val, i}
 		}
 	}
