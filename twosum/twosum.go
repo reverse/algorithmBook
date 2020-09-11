@@ -3,7 +3,7 @@ package twosum
 // TSBrute is the brute force solution to the Two Sum Algorithm
 func TSBrute(nums []int, target int) []int {
 	for i := 0; i < len(nums); i++ {
-		for num := 0; num < len(nums); num++ {
+		for num := i + 1; num < len(nums); num++ {
 			if nums[num]+nums[i] == target && (num != i) {
 				return []int{num, i}
 			}
