@@ -1,12 +1,6 @@
-All of the algorithms in my book.
+### All of the algorithms in my book. Code written in go, sometimes python. Most of these algorithms are pulled from leetcode.
 
-
-Code written in go, sometimes python. 
-
-
-Most of these algorithms are pulled from leetcode.
-
-** Problem and Solution Sets**
+#### Problem and Solution Sets
 
 > [TwoSum](https://github.com/mckinnonn/algorithmBook/tree/master/twosum) - [LeetCode Link](https://leetcode.com/problems/two-sum/)
 
