@@ -26,7 +26,7 @@ func FibHashHelper(n int, hash map[int]int) int {
 		return val
 	}
 
-	hash[n] = FibHashHelper(n-1, hash) + FibHashHelper(n-2, hash)
+	hash[n] = FibHashHelper(n-2, hash) + FibHashHelper(n-1, hash)
 	return hash[n]
 }
 
