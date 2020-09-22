@@ -14,3 +14,18 @@ func ArraySub(array, sequence []int) bool {
 
 	return sequenceTicker == len(sequence)
 }
+
+// StringSub returns true if given string (sub) is a substring of other given string (initial)
+func StringSub(initial, sub string) bool {
+	startInitial := 0
+	startSub := 0
+
+	for startInitial < len(initial) && startSub < len(sub) {
+		if initial[startInitial] == sub[startSub] {
+			startSub++
+		}
+		startInitial++
+	}
+
+	return startSub == len(sub)
+}
