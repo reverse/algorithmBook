@@ -16,4 +16,4 @@
 
 > [PowX](https://github.com/mckinnonn/algorithmBook/tree/master/pow) - [LeetCode Link](https://leetcode.com/problems/powx-n/)
 
-> [Binary Search](https://github.com/mckinnonn/algorithmBook/tree/master/binarySearcg) - No LeetCode Problem
+> [Binary Search](https://github.com/mckinnonn/algorithmBook/tree/master/binarySearch) - No LeetCode Problem
