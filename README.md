@@ -13,3 +13,7 @@
 > [Substring of String](https://github.com/mckinnonn/algorithmBook/tree/master/arraysubsequence) - [LeetCode Link](https://leetcode.com/problems/is-subsequence/)
 
 > [Substring of Array](https://github.com/mckinnonn/algorithmBook/tree/master/arraysubsequence) - No LeetCode Problem 
+
+> [PowX](https://github.com/mckinnonn/algorithmBook/tree/master/pow) - [LeetCode Link](https://leetcode.com/problems/powx-n/)
+
+> [Binary Search](https://github.com/mckinnonn/algorithmBook/tree/master/binarySearcg) - No LeetCode Problem
