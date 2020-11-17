@@ -5,7 +5,7 @@ class BST:
          self.right = right
     
 
-def findClosestValueInBst(tree, target):
+def FindClosestValueInBst(tree, target):
 	return helper(tree, target, float("inf"))
 	
 def helper(tree, target, closest):
