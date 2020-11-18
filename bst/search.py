@@ -7,9 +7,9 @@ class BST:
 
 def SearchBSTIterative(tree, val):
     while tree is not None:
-        if val < tree.val:
+        if val < tree.value:
             tree = tree.left
-        elif val > tree.val:
+        elif val > tree.value:
             tree = tree.right
         else:
             return tree
