@@ -5,10 +5,10 @@ class BST:
          self.right = right
     
 
-def FindClosestValueInBst(tree, target):
-	return helper(tree, target, float("inf"))
+def FindClosestValueInBstRecursive(tree, target):
+	return recursiveHelper(tree, target, float("inf"))
 	
-def helper(tree, target, closest):
+def recursiveHelper(tree, target, closest):
 	if tree is None: 
 		return closest 
 	if abs(target-closest) > abs(target-tree.value):
@@ -20,3 +20,22 @@ def helper(tree, target, closest):
 	else:
 		return closest 
 
+
+def FindClosestValueInBstIterative(tree, target):
+    return iterativeHelper(tree, target, float("inf"))
+
+
+def iterativeHelper(tree, target, closest):
+    node = tree
+    while node is not None:
+        if abs(target-closest) > abs(target-node.value):
+            closest = node.value
+        
+        if target < node.value: 
+            node = node.left
+        elif target > node.value:
+            node = node.right
+        else:
+            break
+        
+    return closest 
