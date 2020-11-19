@@ -20,10 +20,8 @@ def recursiveHelper(tree, target, closest):
 	else:
 		return closest 
 
-
 def FindClosestValueInBstIterative(tree, target):
-    return iterativeHelper(tree, target, float("inf"))
-
+    return iterativeHelper(tree, target, float("inf"))    
 
 def iterativeHelper(tree, target, closest):
     node = tree
