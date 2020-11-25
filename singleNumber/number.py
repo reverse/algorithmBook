@@ -5,9 +5,7 @@ def SingleNumberHashMap(nums):
         if item in store:
             store[item] += 1
             continue
-        
         store[item] = 1 
-
     
     for i in store:
         if store[i] == 1:
