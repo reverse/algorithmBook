@@ -1,3 +1,8 @@
+class LinkedList:
+    def __init__(self):
+        self.Val = val
+        self.Next = next 
+
 def ReverseLinkedListInPlace(head):
     prev, current = None, head
 
