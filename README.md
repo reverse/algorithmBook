@@ -25,3 +25,5 @@
 > [Search BST](https://github.com/reverse/algorithmBook/tree/master/bst) - [LeetCode Link](https://leetcode.com/problems/search-in-a-binary-search-tree/)
 
 > [Single Number](https://github.com/reverse/algorithmBook/tree/master/singleNumber) - [LeetCode Link](https://leetcode.com/problems/single-number/)
+
+> [Reverse Linked List](https://github.com/reverse/algorithmBook/tree/master/linkedList) - [LeetCode Link](https://leetcode.com/problems/reverse-linked-list/)
