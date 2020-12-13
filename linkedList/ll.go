@@ -5,6 +5,7 @@ type LinkedList struct {
     Next *LinkedList 
 }
 
+// Reverse reverses a linked list in place, returns head of reversed LL
 func Reverse(head *LinkedList) *LinkedList {
     current := head 
     var prev *LinkedList 
