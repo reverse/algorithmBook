@@ -11,5 +11,18 @@ def ReverseLinkedListInPlace(head):
         current.Next = prev 
         prev = current
         current = next 
+    return prev
 
-    return prev 
+
+def ReverseRecusive(head):
+    return helper(head, None)
+
+def helper(head, prev):
+    if head is None:
+        return prev 
+
+    next = head.Next
+    head.Next = prev
+    prev = head
+
+    return helper(next, prev)
