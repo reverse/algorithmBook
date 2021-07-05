@@ -1,3 +1,5 @@
+## PURCHASE THIS BOOK [HERE](https://mckinnon.gumroad.com/algorithmbook)
+
 ### All of the algorithms in my book. Code written in go, sometimes python. Most of these algorithms are pulled from leetcode.
 
 #### Problem and Solution Sets
