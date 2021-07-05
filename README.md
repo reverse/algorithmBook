@@ -1,4 +1,4 @@
-## PURCHASE THIS BOOK [HERE](https://mckinnon.gumroad.com/algorithmbook)
+## PURCHASE THIS BOOK [HERE](https://mckinnon.gumroad.com/algorithmbook#POwJE)
 
 ### All of the algorithms in my book. Code written in go, sometimes python. Most of these algorithms are pulled from leetcode.
 
